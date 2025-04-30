@@ -1,0 +1,165 @@
+**SDLC ---> Software Development Life Cycle**
+
+It is a structured way or a step by step process for developing and maintaing software applications.
+
+Steps:
+Requirement analysis
+Designing
+Implementation
+Testing
+Deployment
+Maintainance
+
+This is basically a advanced plan for achieving cost and time effective
+
+----------------------------------------------------------------------------------------
+
+Waterfall, Agile, DevOps,..
+
+WATERFALL  Methodology:
+
+The meaning itself defines as falling water. Means once the water flows from the tip/edge of  something high cannot flow back.
+
+Requirement analysis
+      Designing
+            Implementation
+                  Testing
+                      Deployment
+                          Maintainance
+
+Similarly here all the steps are followed in a linear manner. Once one step is completed cannot go back to the past step.
+Although this is a good methodology, but it has the majaor drawback. 
+
+========================================================================================
+For example lets take common but easy example:
+
+SMS --> School Management System
+
+100 years back --> Final exam
+
+stakeholders
+---------------
+Teachers -> Not serious to complete syllabus from DAY-1
+Parents -> Yes. Worried about whether they pass or not
+Students -> Not serious to study from DAY-1
+
+30%
+
+Process Change
+----------------
+UNIT TEST-I, II, III, IV
+Q, H, PRE-FINAL, Final
+
+UNIT TEST-I --> 30 days
+Teachers --> They should be serious from DAY-1 to complete syllabus for UNIT TEST-I
+Students --> 1 week before UNIT TEST-I
+Parents --> They are waiting for UNIT TEST-I results
+
+80%
+
+Parents --> Clients
+Students --> Developers, Operations team or Testing team
+Teachers --> IT Management
+===============================================================================
+WATERFALL :
+
+Requirements -> Phase-I
+Once you are in Phase-II
+You can't go back and change the requirements
+
+6 months for development --> Testing and Deployment
+100 defects --> 10 invalid defects
+
+50 defects --> 6 invalid defects
+
+Here finally argument starts -->development team vs Operations team
+=============================================================================
+AGILE Methodology
+
+Final product --> multiple modules --> sprints
+
+login and signup --> sprint-1 --> 30 days
+orders
+menu
+payment
+shipping
+cart
+reviews
+employees
+
+sprint-1
+----------
+clients UAT(user acceptance testing)
+
+daily standups --> 
+
+95% --> 5 defects, 1 invalid defect
+
+sprint-2 --> orders + 4 defects
+
+15 days 15 days testing and deployment
+
+Process change --> Agile with DevOps
+=========================
+
+Signup and Login
+==================
+
+DAY-1 --> enter first name, enter last name, enter DOB
+
+deploy on the same day, test on the same day
+10 defects --> 1 invalid defect
+
+=====================================================================
+DevOps
+
+DevOps is the process or a methodology of building, deploying and testing the code written by developer on the same day instead of doing after complete development.. we can acheive this using continous integration, continous deployment, continous delivery and continous testing. 
+We can do faster releases with less defect using DevOps... basically automation mindset to get the best results
+
+DEV, QA, SIT, UAT, PERF, PRE-PROD, PROD
+
+min 2, max any number of environments
+
+Speed and accuracy
+Gap covered between development and operations team 
+
+==============================================================================
+Waterfall --> 10 times testing --> 100 defects
+Agile --> 30 times testing --> 101 defects
+DevOps --> 100 times --> 102 defects
+
+=============================================================================
+
+Linux --> Linus torvalds
+
+UNIX --> Hardware and Software(Unix OS) together
+CPU, RAM, Hard Disk, OS(Software)
+Laptop --> IBM BIOS
+
+Linux --> from the sratch using C language based on unix principles. He invented git to store this
+
+windows
+-----------
+not open source
+costly
+not secure must install anti virus
+slow
+too many graphics
+frequent restarts
+tough to update/upgrade
+
+Linux --> 9MB
+Secure
+high speed --> mostly text
+no need of restarts
+install or update packages is easy
+free, community support
+low resources
+
+
+
+
+
+
+
+
