@@ -1,0 +1,140 @@
+1  pwd
+    2  ls
+    3  rm -f file1.txt file2.txt file3.txt file4.txt file5.txt
+    4  ls
+    5  touch file1.txt
+    6  cat file1.txt
+    7  cat > file1.txt
+    8  cat file1.txt
+    9  tac file1.txt
+   10  cat > file1.txt
+   11  cat file1.txt
+   12  cat > file2.txt
+   13  ls
+   14  cat file2.txt
+   15  cat file1.txt file2.txt  > file3.txt
+   16  ls
+   17  cat file3.txt
+   18  cat file3.txt | cat > file4.txt
+   19  ls
+   20  cat file4.txt
+   21  cat /etc/passwd > file5.txt
+   22  ls
+   23  cat file5.txt
+   24  cat file1.txt file2.txt file3.txt file4.txt file5.txt > file6.txt
+   25  ls
+   26  cat file6.txt
+   27  tac file6.txt
+   28  cat file5.txt | less
+   29  cat file5.txt |  more
+   30  ls -l
+   31  ls -a
+   32  ls -ltrh
+   33  ls -ltr
+   34  ls -la
+   35  cp file5.txt file6.txt
+   36  ls
+   37  mv file6.txt file7.txt
+   38  ls
+   39  cat >> file7.txt
+   40  cat file7.txt
+   41  mkdir new
+   42  cd new/
+   43  touch first.txt
+   44  touch second.txt
+   45  touch third.txt
+   46  ls
+   47  rmdir new
+   48  cd ..
+   49  pwd
+   50  cd new/
+   51  cd ..
+   52  rmdir new/
+   53  cd new/
+   54  rm first.txt
+   55  rm second.txt
+   56  rm -f third.txt
+   57  touch fourth.txt
+   58  cd ..
+   59  rm -f new
+   60  rmdir -f new/
+   61  rmdir -rf new/
+   62  rm -rf new/
+   63  mkdir old
+   64  rmdir old/
+   65  mkdir middle
+   66  rm middle/
+   67  rm -f middle/
+   68  rmdir middle/
+   69  wget https://www.facebook.com/
+   70  curl https://www.facebook.com/
+   71  echo https://raw.githubusercontent.com/daws-84s/notes/refs/heads/main/session-02.txt | cut -d "/" -f1
+   72  echo https://raw.githubusercontent.com/daws-84s/notes/refs/heads/main/session-02.txt | cut -d "/" -f5
+   73  echo https://raw.githubusercontent.com/daws-84s/notes/refs/heads/main/session-02.txt | cut -d "/" -fn-1
+   74  echo https://raw.githubusercontent.com/daws-84s/notes/refs/heads/main/session-02.txt | cut -d "/" -fn -1
+   75* echo https://raw.githubusercontent.com/daws-84s/notes/refs/heads/main/session-02.txt | awk -F '
+   76  echo https://raw.githubusercontent.com/daws-84s/notes/refs/heads/main/session-02.txt | awk -F "/" '{print $1F}'
+   77  echo https://raw.githubusercontent.com/daws-84s/notes/refs/heads/main/session-02.txt | awk -F "a" '{print $4F}'
+   78  tail -f /etc/passwd
+   79  tail -n3 /etc/passwd
+   80  cat /etc/passwd
+   81  tail -n9 /etc/passwd
+   82  cat -n11 /etc/passwd
+   83  cat -n9 /etc/passwd
+   84  cat --help
+   85  cat -n 7 /etc/passwd
+   86  touch idea.txt
+   87  cat > idea.txt
+   88  cat >> idea.txt
+   89  cat idea.txt
+   90  cat -n idea.txt
+   91   cat -t idea.txt
+   92  cat >> idea.txt
+   93   cat -t idea.txt
+   94  cat >> idea.txt
+   95  cat idea.txt
+   96  cat >> idea.txt
+   97  cat idea.txt
+   98  cat >> idea.txt
+   99  pwd
+  100  cat idea.txt
+  101  cat -t idea.txt
+  102  vi filenew.txt
+  103  user add ramesh
+  104  sudo su
+  105  useradd ramesh
+  106  sudo su
+  107  history
+
+
+t@ip-172-31-9-195 ec2-user]# history
+    1  pwd
+    2  useradd Harshitha
+    3  id Harshitha
+    4  groupadd Harshitha
+    5  groupadd Siri
+    6  ls
+    7  rm index.html
+    8  cat /etc/passwd
+    9  cat /etc/passwd | grep Harshitha
+   10  cat /etc/passwd/
+   11  cat /etc/group
+   12  cat /etc/group | grep Harshitha Siri
+   13  cat /etc/group | grep Harshitha
+   14  cat /etc/group | grep siri
+   15  cat /etc/group | grep Harshitha  Siri
+   16  cat /etc/group | grep Siri
+   17  cat /etc/group | grep Siri Harshitha
+   18  cat /etc/group | grep -E Harshitha|Siri
+   19  cat /etc/group | grep -E 'Harshitha|Siri'*
+   20  cat /etc/group | grep -E 'Harshitha|Siri|rpc'*
+   21  usermod -g Siri Harshitha
+   22  cat /etc/group | grep Siri
+   23  cat /etc/passwd/ | grep Harshitha
+   24  cat /etc/passwd/
+   25  cat /etc/passwd
+   26  cat /etc/passwd | grep Harshitha
+   27  id Harshitha
+   28  history
+
+
